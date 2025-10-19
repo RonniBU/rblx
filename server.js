@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const WebSocket = require("ws");
 
 const PORT = process.env.PORT || 3000; // Render.com nutzt process.env.PORT
-const AUTH_TOKEN = "DEIN_SECRET_TOKEN"; // muss gleich sein wie in Roblox Script
+const AUTH_TOKEN = "2MQQF2cLAqx0oDFfas"; // muss gleich sein wie in Roblox Script
 
 const app = express();
 app.use(bodyParser.json());
